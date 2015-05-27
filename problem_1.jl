@@ -13,7 +13,7 @@ upper = 1000
 cumulative_sum = 0
 
 for x in lower:upper-1
-	if mod(x, 3) == 0 || mod(x, 5) == 0	# div. by 3
+	if mod(x, 3) == 0 || mod(x, 5) == 0	# div. by 3 and 5
 		cumulative_sum += x
 	end
 end
